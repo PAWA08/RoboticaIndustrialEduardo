@@ -1,0 +1,23 @@
+print("hola mundo")
+x=4%7
+y=float("136.47")
+print(type(y))
+print("23",type(23))
+print("rodrigo es buen amigo",x)
+pi=3.14159
+respuesta= float(input("Cual es tu radio?"))
+type(respuesta)
+print(respuesta)
+area=pi*(respuesta**2)
+print(area)
+print("ja"*8)
+p1="hola "
+p2="como "
+p3="estas?"
+print(p1+p2+p3)
+complejo=5 + 6j
+print(complejo,type(complejo))
+if 25>15:
+	print("fetu es gay")
+	print("fetu es muy gay")
+print("fetu es lesbiano")

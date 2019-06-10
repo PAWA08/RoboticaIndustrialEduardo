@@ -1,0 +1,29 @@
+#----codigo1----#
+def saludo():
+	print("Hola")
+def tressaludos():
+	for i in range(3):
+		print(i+1)
+		saludo()
+tressaludos()
+#-------codigo2--------#
+print("------ejemplo2-------")
+def suma(a,b):
+	print(a+b)
+suma("Hola"," Mundo")
+suma(3,6)
+suma("3","6")
+#------codigo3------#
+print("------ejemplo3-------")
+def saludar(mensaje, saludo):
+	print(mensaje+saludo)
+saludar("Hola"," Mundo")
+#------codigo4------#
+print("------ejemplo4------")
+def media_3(a,b,c):
+	media= ((a+b+c)/3)
+	return media
+xyz=media_3(3,4,6)
+print(xyz)
+
+
